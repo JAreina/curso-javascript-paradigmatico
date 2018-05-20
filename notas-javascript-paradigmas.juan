@@ -82,7 +82,26 @@ cómo se escribe:
 cómo se ejecuta:
 
  - PROG SINCRONA 
+
+   
+
+    Programación Paralela
+
+    Acciones Bloqueantes
+
+    Paralelismo: varios objetos realizando una acción cada uno simultáneamente (síncrono)
+
+
  - PROG ASINCRONA
+
+   
+
+    Programación Concurrente
+
+    Acciones NO Bloqueantes
+
+    Concurrencia: un solo objeto, con varias tareas “activas” entre las que va alternando(asíncrono)
+
 
 
 _____________________________________________________________

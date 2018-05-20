@@ -19,6 +19,7 @@ try{
 
 
 
+
 console.timeEnd("SINCRONO");
 
 console.time("aSINCRONO")

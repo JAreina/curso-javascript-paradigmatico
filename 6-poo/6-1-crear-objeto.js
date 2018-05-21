@@ -66,12 +66,31 @@ let metodo = ((mostrar,numero,doc)=>{
    function Casa(calle,ciudad,habitantes){
        this.calle = calle;
        this.ciudad = ciudad;
-       this.habitantes = habitantes 
+       this.habitantes = habitantes ;
+       this.vivir = function(){
+            mostrar("vido en "+this.ciudad);
+       }
  
     }
  
     let casa = new Casa("Avda. Madrid","MADRID", 48893837)
-    mostrar(casa)
+    mostrar(casa);
+    casa.vivir()
+
+
+   mostrar("********** class es6")
+
+   class Helado {
+
+       constructor(sabor,precio) {
+             this.sabor = sabor;
+             this.precio = precio           
+       }
+   }
+
+  let helado = new Helado("FRESA",333)
+mostrar(helado)
+
 return   {
     obj:obj,
     obj2:obj2,

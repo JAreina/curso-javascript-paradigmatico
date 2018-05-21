@@ -1,5 +1,3 @@
-
-
 // cliente
 /*
 function esParCliente(){
@@ -14,19 +12,18 @@ function esParCliente(){
 
 
 // servidor
-function esParServidor(){
+function esParServidor() {
     process.stdout.write("PIENSA UN NUMERO PARA EL SERVIDOR Y ESCRIBELO :  \v\v");
-    process.stdin.once('data',num =>{
-        let resultado = num%2;
-       let salida ="";
-       process.stdout.write("\v\t\t VEAMOS .... \n");
-           (resultado ==1)
-                  ? salida = `\v\t\t ${num} \v\t\t ES imPAR \n`
-                  : salida =`\v\t\t  ${num} \v\t\t ES PAR \n`
+    process.stdin.once('data', num => {
+        let resultado = num % 2;
+        let salida = "";
+        process.stdout.write("\v\t\t VEAMOS .... \n");
+        (resultado == 1) ?
+        salida = `\v\t\t ${num} \v\t\t ES imPAR \n`: salida = `\v\t\t  ${num} \v\t\t ES PAR \n`
 
-    process.stdout.write(salida);
-    process.stdout.write("\v\t\t ***********\n\n")
-    process.exit();
+        process.stdout.write(salida);
+        process.stdout.write("\v\t\t ***********\n\n")
+        process.exit();
     })
 }
 

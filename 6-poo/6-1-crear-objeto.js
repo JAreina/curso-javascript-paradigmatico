@@ -86,10 +86,15 @@ let metodo = ((mostrar,numero,doc)=>{
              this.sabor = sabor;
              this.precio = precio           
        }
+
+        comer(){
+          mostrar("commr el helado")
+       }
    }
 
   let helado = new Helado("FRESA",333)
 mostrar(helado)
+helado.comer();
 
 return   {
     obj:obj,

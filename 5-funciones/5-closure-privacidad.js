@@ -1,7 +1,7 @@
 // funcion autoinvocada
 
 let cont =(()=>{
-    let _contador = 0;
+    let _contador = 330;
 
     function incrementar(){
         return _contador++;
